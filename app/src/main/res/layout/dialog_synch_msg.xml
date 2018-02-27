@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/white_input"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/imgDialogIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="0dp"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:gravity="left"
+            android:text="App will synch your mobile file to server in background"
+            android:textColor="@color/gray_text"
+            android:textSize="@dimen/text_16" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="center"
+                android:textColor="@drawable/textcolor_selector"
+                android:id="@+id/cancelBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="5dp"
+                android:text="CANCEL"
+                android:textSize="@dimen/text_16" />
+
+            <Button
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="center"
+                android:textColor="@drawable/textcolor_selector"
+                android:id="@+id/okBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="5dp"
+                android:text="OK"
+                android:textSize="@dimen/text_16" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

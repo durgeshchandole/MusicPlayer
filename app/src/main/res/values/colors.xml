@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="dash_red">#ef5444</color>
+    <color name="white">#ffffff</color>
+    <color name="gray_text">#58595b</color>
+
+    <color name="blue">#08b5f9</color>
+    <color name="sky_blue">#08b5f9</color>
+
+
+    <color name="black">#000000</color>
+    <color name="gray">#202020</color>
+    <color name="red_color">#cc0000</color>
+    <color name="light_gray">#cccccc</color>
+    <color name="gray_bg_menu">#F1F2F2</color>
+    <color name="list_trans_color">#10000000</color>
+    <color name="list_trans_72">#72000000</color>
+    <color name="list_trans_20">#20000000</color>
+    <color name="list_trans_00">#00000000</color>
+    <color name="progress_lightblue">#08b5f9</color>
+
+    <color name="apps_list_system_memory">#ff384248</color>
+    <color name="apps_list_cache_memory">#ff009587</color>
+    <color name="apps_list_free_memory">#ffced7db</color>
+
+    <color name="dotted_line">#8a000000</color>
+    <color name="button_end_call_normal_color">#ff2744</color>
+    <color name="button_end_call_pressed_color">#FC5876</color>
+    <color name="green">#45D100</color>
+    <color name="white_green">#A9FF80</color>
+    <color name="red">#FF0000</color>
+    <!--AudioCAll-->
+    <!--AudioCall-->
+
+    <color name="sinch_purple">#ff63029d</color>
+    <color name="off_white">#fffafafa</color>
+    <color name="greyish">#fff2f1f2</color>
+
+
+    <color name="textGray">#414042</color>
+
+    <!--Add digital product -->
+    <color name="back_grey">#f4f4f4</color>
+    <color name="textGrayLight">#d1d1d1</color>
+    <color name="textColorJEE">#00AEEF</color>
+
+
+
+</resources>
